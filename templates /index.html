@@ -1,0 +1,23 @@
+<head>
+    <meta charset="utf-8" />
+    <title>HELLO BANG</title>
+</head>
+
+<body>
+    <h2>Dari {{IP}} on: {{hostname}}</h2>
+    <h3>
+        <a href="https://butisa.coa" target="_blank">PEMINING HANDAL, SUHU PERMETHODE AN</a>
+    </h3>
+    <a href="faewar" target="_blank"><img
+            src="fawaweasr" width="300" height="300" /></a>
+    <p>
+        {% if logs|length > 0%}
+        {% for log in logs %}
+        <br> {{log}}
+        {% endfor %}
+        {% endif %}
+    </p>
+
+</body>
+
+</html>
