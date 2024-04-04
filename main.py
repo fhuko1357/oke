@@ -44,5 +44,5 @@ def start_process():
 
 if __name__ == '__main__':
     start_process()
-    PORT = os.environ.get("PORT", 5000)
+    PORT = os.environ.get("PORT", 8000)
     uvicorn.run('main:app', host='0.0.0.0', port=int(PORT), reload=True)
