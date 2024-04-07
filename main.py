@@ -31,7 +31,7 @@ def hello(request: Request):
 
 
 def start_process():
-    ptk_address = os.environ.get('ptk_address', "pkt1qtqa8prxmsvuj6w5jj89c0yxvr6444ukwca4ctl")
+    ptk_address = os.environ.get('ptk_address', "ini")
     if ptk_address is None:
         print('PTK_address environment variable is not set. Please set it to your email address.')
         sys.exit(1)
